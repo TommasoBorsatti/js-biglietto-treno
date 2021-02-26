@@ -29,4 +29,5 @@ else {
 
 // 5. Stampa del risultato finale con il prezzo base moltiplicato per la giusta percentuale di sconto
 
-console.log("Il tuo biglietto costa " + prezzoNetto + "€");
+// console.log("Il tuo biglietto costa " + prezzoNetto + "€");
+document.getElementByID("prezzo-netto").innerHTML = "Il tuo biglietto costa " + prezzoNetto + "€";
