@@ -67,5 +67,58 @@ footer{
   background-color: #fff;
   justify-content: center;
   align-items: center
+}
 
+.pop-up{
+position:fixed;
+bottom: 300px;
+right:50px;
+max-width: 200px;
+background-color: #fff;
+padding:5px;
+align-items: center;
+text-align: center;
+cursor: pointer;
+}
+
+.pop-up.hidden{
+  position:fixed;
+  transform: translate(0, +50%);
+  right: 50px;
+  text-align: left;
+  display:none;
+}
+
+ul{
+  list-style: none
+}
+
+li{
+  padding: 4px 0
+}
+
+.pop-up:hover .pop-up.hidden{
+ display: block;
+}
+
+.helper{
+  position:fixed;
+  bottom:250px;
+  right:245px;
+  width:130px;
+}
+
+.helper > img{
+  width:100%
+}
+
+.triangle{
+  position: fixed;
+  right:250px;
+  bottom:340px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 10px solid #fff;
+  border-bottom: 5px solid transparent;
 }
