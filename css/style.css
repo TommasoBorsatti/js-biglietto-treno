@@ -58,6 +58,10 @@ main{
   justify-content: center;
 }
 
+#prezzo-netto{
+  font-size: 30px
+}
+
 footer{
   height: 5vh;
   background-color: #fff;
